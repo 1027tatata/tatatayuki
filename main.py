@@ -14,7 +14,8 @@ max_time = 10
 apis = [
     r"https://invi.susurrando.com/",
     r"https://invidious.flokinet.to/",
-   
+    r"https://invidious.jing.rocks/",
+    r"https://invidious.nerdvpn.de/",
 ]
 url = requests.get(r'https://raw.githubusercontent.com/mochidukiyukimi/yuki-youtube-instance/main/instance.txt').text.rstrip()
 version = "1.0"
