@@ -12,25 +12,8 @@ from cache import cache
 max_api_wait_time = 6
 max_time = 10
 apis = [
-    r"https://invidious.not.futbol/",
-    r"https://inv.odyssey346.dev/",
-    r"https://inv.riverside.rocks/",
-    r"https://inv.us.projectsegfau.lt/",
     r"https://invi.susurrando.com/",
-    r"https://inv.vern.cc/",
-    r"https://invidio.xamh.de/",
-    r"https://invidious.baczek.me/",
-    r"http://144.126.251.186/",
-    r"https://invidious.dhusch.de/",
-    r"https://invidious.drivet.xyz/",
-    r"https://invidious.epicsite.xyz/",
-    r"https://invidious.esmailelbob.xyz/",
-    r"https://invidious.fdn.fr/",
     r"https://invidious.flokinet.to/",
-    r"https://invidious.kavin.rocks/",
-    r"https://invidious.lidarshield.cloud/",
-    r"https://invidious.lunar.icu/",
-    r"https://invidious.garudalinux.org/",
    
 ]
 url = requests.get(r'https://raw.githubusercontent.com/mochidukiyukimi/yuki-youtube-instance/main/instance.txt').text.rstrip()
