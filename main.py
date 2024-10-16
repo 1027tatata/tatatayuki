@@ -12,8 +12,6 @@ from cache import cache
 max_api_wait_time = 6
 max_time = 10
 apis = [
-    r"https://invidious.jing.rocks/",
-    r"https://invidious.nerdvpn.de/",
     r"https://invidious.ethibox.fr/",
     r"https://invidious.not.futbol/",
     r"https://inv.bp.projectsegfau.lt/",
